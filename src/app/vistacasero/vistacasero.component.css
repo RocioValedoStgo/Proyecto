@@ -83,16 +83,40 @@ label {
 
 
 .btn-Solicitud {
-    text-align: right;
+    background: none;
+    color: black;
+    border: none;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-size: 25pt;
 }
 .btn-Editar {
     text-align: center;
+    background: none;
+    color: black;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 25pt;
 }
 .btn-Crear {
     text-align: center;
+    background: none;
+    color: black;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 25pt;
 }
 .btn-Control {
     text-align: left;
+    background: none;
+    color: black;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 25pt;
 }
 
 .img1 {
