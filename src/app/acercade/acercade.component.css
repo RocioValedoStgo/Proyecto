@@ -101,6 +101,7 @@ button {
     width: 160px;
     border-radius: 5px;
     float: inline-end;
+    outline: none;
 
 }
 button:hover {
