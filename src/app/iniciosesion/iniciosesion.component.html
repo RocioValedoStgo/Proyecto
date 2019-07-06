@@ -1,0 +1,53 @@
+<app-navbar></app-navbar>
+<body>
+
+   <div id="wrapper" class="">
+      <div id="right">
+         <div id="showcase">
+           <div class="showcase-content">
+             <h1 class="showcase-text">
+                Tu nuevo comienzo empieza <br> <strong>Aqui</strong>
+             </h1>
+           </div>
+         </div>
+       </div>
+      <div id="left">
+        <div id="signin">
+          <div class="logo">
+            <!-- <img src="https://image.ibb.co/hW1YHq/login-logo.png" alt="Sluralpright" /> -->
+          </div>
+          <form (submit)="onLogin()">
+            <div>
+              <label>Email</label>
+              <input type="text" class="text-input" id="email" name="email" [(ngModel)]="email"/>
+            </div>
+            <div>
+              <label>Contraseña</label>
+              <input type="password" class="text-input"  id="password" name="password" [(ngModel)]="password" />
+            </div>
+            <button  type="submit" class="primary-btn" >Iniciar Sesion</button>
+            
+          </form>
+          <div class="links">
+            <a href="#">Olvidaste tu contraseña?</a>
+            
+          </div>
+          <div class="or">
+            <hr class="bar" />
+            <span>O</span>
+            <hr class="bar" />
+          </div>
+          <a href="#" class="secondary-btn" routerLink="/registro-alumno">Crear una cuenta</a>
+
+        </div>
+        <!-- <footer id="main-footer">
+          <p>Copyright &copy; 2019, DARP IDS TEAM</p>
+          <div>
+            <a href="#">Terminos y usos</a> | <a href="#">Politica de privacidad</a>
+          </div>
+        </footer> -->
+      </div>
+      
+    </div>
+</body>
+<app-footer></app-footer>

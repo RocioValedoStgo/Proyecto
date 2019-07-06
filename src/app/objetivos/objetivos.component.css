@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+    color: #444;
+}
+*{
+    box-sizing: border-box;
+}
+*,*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+  .navbar-brand {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  #testimonial {
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top: 40px;
+  }
+  
+
+
+
+

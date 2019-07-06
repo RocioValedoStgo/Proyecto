@@ -1,0 +1,161 @@
+body{
+    height:100%;
+  width:100%;
+		margin: 0;
+		background: url(/assets/img/peticiones.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+		background-size: cover;
+		background-position: inherit;
+}
+#display{
+	height: 10%;
+}
+.mat-sort-header-container {
+    align-items: center;
+    
+  }
+.header{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(231, 228, 222);
+}
+.logo{
+    float: left;
+    width: 25%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.searchcolumn{
+    float: right;
+    width: 90px;
+    height: 80%;
+    
+    /* background-color: royalblue; */
+}
+.infocolumn{
+    float: right;
+    width: 10%;
+    height: 100%;
+    /* background-color: sandybrown; */
+    text-align: center;
+    padding-top: 20px;
+}
+.sombreado{
+     background-color: gray;
+}
+.infocolumn a{
+    color: black;
+    text-decoration:none; 
+}
+.containers{
+    padding-top: 60px;
+    height: 100%;
+    text-align: center;
+    height: 90%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.list{
+    float: left;
+    width: 95%;
+    height: 80%;
+		background-color: rgba(0, 0, 0, 0.27);
+		color: white;
+}
+.list h1{
+    color: white;
+}
+.tabla{
+	width: 100% !important;
+}
+.columna{
+	width: 200px !important;
+}
+.columna-opciones{
+	width: 100px !important;
+}
+.btncol{
+	width: 100px;
+}
+ 
+.btn{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+	}
+	.btnopcion{
+		display: inline-block;
+    width: 90%;
+    height: 40px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+	}
+  .btn i{
+    line-height: 40px;
+    font-size: 26px;
+    transition: 0.2s linear;
+  }
+  .btn:hover i{
+    transform: scale(1.3);
+    color: #f1f1f1;
+  }
+  .btn::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+  }
+  .btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+  }
+  @keyframes aaa {
+    0%{
+      left: -110%;
+      top: 90%;
+    }50%{
+      left: 10%;
+      top: -30%;
+    }100%{
+      top: -10%;
+      left: -10%;
+    }
+	}
+	
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 100%;
+		/* border: 1px solid #3498db; */
+	}
+	
+	th, td {
+		text-align: left;
+		padding: 8px;
+	}
+	
+	tr:nth-child(even){background-color: rgb(55, 100, 109)}

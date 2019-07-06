@@ -1,0 +1,46 @@
+<app-navbar></app-navbar>
+
+<body class="img-Fondo">
+
+    <div class="container formato">
+        <div class="row">
+            <div class="colum">
+                <span class="text2 titulo">REGISTRO CASERO</span>
+                <form (ngSubmit) ="onGuardarCasero(formNew)" #forNew="ngForm"  class="example-form">
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="casero.nombre" #nombre="ngModel" matInput placeholder="🖉 Nombre:" type="text" name="name" required>   
+                    </mat-form-field>
+                    <div *ngIf="nombre.touched && !nombre.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="casero.apellidopaterno" #apellidopaterno="ngModel" matInput placeholder="🖉 Apellido Paterno" type="text" name="apellidop" required>
+                    </mat-form-field>
+                    <div *ngIf="apellidopaterno.touched && !apellidopaterno.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="casero.apellidomaterno" #apellidomaterno="ngModel" matInput placeholder="🖉 Apellido Materno" type="text" name="apellidom" required>
+                    </mat-form-field>
+                    <div *ngIf="apellidomaterno.touched && !apellidomaterno.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="casero.telefono" #telefono="ngModel" matInput placeholder="✆  Telefono" type="text" name="telefono" pattern="[0-9]{10}" required>
+                    </mat-form-field>
+                    <div *ngIf="telefono.touched && !telefono.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="casero.fechanacimiento" #nombre="ngModel" matInput placeholder="🗓  Fecha De Nacimiento" type="text" name="fechanacimiento" required>
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="casero.email" #email="ngModel"  matInput placeholder="✉ Correo" type="email" name="email" required>
+                    </mat-form-field>
+                    <div *ngIf="email.touched && !email.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="casero.password" #password="ngModel" matInput placeholder="🖉  Contraseña" type="password" name="password" required>
+                    </mat-form-field>
+                    <button type="submit" mat-button color="primary"routerLink="/"></button>
+ 
+                </form>
+            </div>
+        </div>  
+    </div>
+
+
+</body>
+<app-footer></app-footer>

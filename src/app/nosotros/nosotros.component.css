@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+}
+.header{
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(231, 228, 222);
+}
+.logo{
+    float: left;
+    width: 25%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.searchcolumn{
+    float: right;
+    width: 90px;
+    height: 80%;
+    
+    /* background-color: royalblue; */
+}
+.infocolumn{
+    float: right;
+    width: 10%;
+    height: 100%;
+    /* background-color: sandybrown; */
+    text-align: center;
+    padding-top: 20px;
+}
+.infocolumn a{
+    color: black;
+    text-decoration:none; 
+}
+.sombreado{
+    background-color: gray;
+}
+.containers{
+    width: 100%;
+    height: 650px;
+    margin-left: 0;
+}
+.containers img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.description{
+    position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -40%);
+	width:950px;
+	height:520px;
+	padding:80px 40px;
+	box-sizing: border-box;
+    background:rgba(0,0,0,0.5) ;
+    font-family:'Raleway';
+    font-size: 20pt;
+    color:white; 
+}
+
+.footer{
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(51, 70, 94, 0.849);
+}
+.icono{
+    float: left;
+    width: 20%;
+    height: 100%;
+    /* background-color: #184BA2; */
+    margin-left: 14px;
+}
+.links{
+    float: left;
+    width: 20%;
+    height: 80%;
+    /* background-color: #184BA2; */
+    margin-left: 14px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.items{
+    float: left;
+    width: 50%;
+    height: 33.3%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+        
+}
+.social{
+    float: right;
+    width: 50%;
+    height: 100%;
+    /* background-color: #184BA2; */
+    margin-left: 14px;
+}
+
+.social h2{
+    margin-top: 20px;
+    color: white;
+}
+.columnInput{
+    float: left;
+    width: 70%;
+    height: auto;
+    text-align: center !important;
+    
+    
+}
+.input-group-prepend button{
+    margin-left: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.socialicons{
+    float: left;
+    width: 70%;
+    height: 30px;
+    padding: 15px;
+}
+.icon{
+    float: left;
+    width: 15%;
+    height: 80px;
+    margin-left: 10px;
+    outline: none;
+}
+.insta{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/instalogo.png);
+    background-size:100% 100%;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}
+.snap{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/snaptlogo.png);
+    background-size:100% 100%;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}
+.face{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/facelogo.png);
+    background-size:100% 100%;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}
+.twitter{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/twitterlogo.png);
+    background-size:100% 100%;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}
+.youtube{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/youlogo.png);
+    background-size:100% 100%;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+}

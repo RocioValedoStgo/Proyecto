@@ -1,0 +1,42 @@
+<body class="img-Fondo">  
+  <app-navbar></app-navbar>
+<div class="container1">
+  <div class="row">
+    <div class="colum">
+        <img src="/assets/img/email.png">
+        <br>
+        <label class="lbl-descrip">darpsoftware@hotmail.com</label>
+    </div>
+  
+    <div class="colum">
+        <img src="/assets/img/cellphone.png">
+        <br>
+        <label class="lbl-descrip">961 123 4567</label>
+    </div>
+  </div>
+
+  <div class="container1">
+    <div class="tlt-divi">
+        <label class="tittle">CONTACTENOS</label>
+
+        <div class="formu">
+            <form (ngSubmit)="contactForm(form.value)" #form="ngForm" class="formu">
+                <input type="email" class="ipt1" placeholder="✉  Email" name="email" id="email" ngModel>
+                <br>
+                <input type="text" class="ipt2" placeholder="🖉 Nombre" name="nombre" id="nombre" ngModel>
+                <br>
+                <input type="text" class="ipt3" pattern="[0-9]{10}" placeholder="✆  Telefono" name="mensaje" id="mensaje" ngModel>
+                <br>
+                <button type="submit" value="Enviar ✓" routerLink="">Enviar ✓</button>
+            </form>
+          </div> 
+
+      </div>
+    
+      
+    </div>
+  </div>
+  
+</body>
+<app-footer></app-footer>
+

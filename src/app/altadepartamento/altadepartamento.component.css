@@ -1,0 +1,402 @@
+body{
+		background-image: url(/assets/images/altadepartamento/Altad.jpg);
+		background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+input {
+  color: white;
+}
+
+input[type=file] {
+  width: 155px;
+}
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+.colum {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    color: white;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    padding: 0;
+    margin: 5px;
+  }
+
+  .mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }
+  
+.example-radio-button {
+  margin: 5px;
+}
+
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+
+  .example-form label {
+    font-size: 20pt;
+  }
+
+  .lbl-subir {
+    color: white;
+    font-size: 15pt;
+  }
+
+  @media screen and (max-width: 320px) {
+    .container {
+      width: 100%;
+  }
+  input {
+    color: white;
+  }
+
+    .colum {
+      float: left;
+      width: 50%;
+      height: 100%;
+      padding: 0px;
+  }
+
+  input[type=file] {
+    width: 155px;;
+    padding: 0px;
+    display: block;
+    box-sizing: border-box;
+
+  }
+
+  iframe {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    margin:  0px;
+    padding: 4px;
+
+  }
+  .lbl-subir {
+    color: white;
+    font-size: 12pt;
+  }
+  form .example-form {
+    padding: 5px;
+    width: 50px;
+    margin: 15px;
+  }
+
+  form input {
+    margin: 0px;
+  }
+  
+  form .example-form .formu{
+    width: 140px !important;
+  }
+  
+  form mat-form-field {
+    top: 45px;
+    width: 140px;
+    float: left;
+  }
+  form mat-radio-group {
+    top: 20px;
+    width: 150px;
+    position: relative;
+  }
+  form mat-radio-group .mat-radio-button {
+    font-size: 10pt;
+    position: relative;
+    padding: 2px;
+
+  }
+  form mat-radio-group label {
+    margin: 0;
+    width: 150px;
+  }
+  form mat-form-field textarea {
+    float: left;
+    width: 150px;
+    padding: 0;
+    top: 0;
+    height: 30px;
+  }
+
+  .example-form {
+      min-width: 150px;
+      max-width: 500px;
+      width: 100%;
+      color: white;
+    }
+    
+    .example-full-width {
+      width: 100%;
+      padding: 0;
+      margin: 5px;
+    }
+  
+    .mat-radio-button ~ .mat-radio-button {
+      margin-left: 16px;
+    }
+    
+  .example-radio-button {
+    margin: 5px;
+  }
+  
+  .example-radio-group {
+      display: flex;
+      flex-direction: column;
+      margin: 15px 0;
+    }
+  
+    .example-form label {
+      font-size: 15pt;
+    }
+  
+    .lbl-subir {
+      color: white;
+      font-size: 13pt;
+    }
+
+    button {
+      width: 100px;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width: 650px) {
+    .container {
+      width: 100%;
+  }
+
+    .colum {
+      float: left;
+      width: 50%;
+      height: 100%;
+      padding: 0px;
+  }
+  iframe {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    margin:  0px;
+    padding: 4px;
+
+  }
+  .lbl-subir {
+    color: white;
+    font-size: 12pt;
+  }
+  form .example-form {
+    padding: 10px;
+    width: 50px;
+    margin: 20px;
+  }
+
+  form input {
+    margin: 0px;
+  }
+  
+  form .example-form .formu{
+    width: 250px !important;
+  }
+  
+  form mat-form-field {
+    top: 45px;
+    width: 150px;
+    float: left;
+  }
+  form mat-radio-group {
+    top: 20px;
+    width: 150px;
+    position: relative;
+  }
+  form mat-radio-group .mat-radio-button {
+    font-size: 10pt;
+    position: relative;
+    padding: 2px;
+
+  }
+  form mat-radio-group label {
+    margin: 0;
+    width: 150px;
+  }
+  form mat-form-field-infix {
+    float: left;
+    width: 150px;
+  }
+  .example-form {
+      min-width: 150px;
+      max-width: 500px;
+      width: 100%;
+      color: white;
+    }
+    
+    .example-full-width {
+      width: 100%;
+      padding: 0;
+      margin: 5px;
+    }
+  
+    .mat-radio-button ~ .mat-radio-button {
+      margin-left: 16px;
+    }
+    
+  .example-radio-button {
+    margin: 5px;
+  }
+  
+  .example-radio-group {
+      display: flex;
+      flex-direction: column;
+      margin: 15px 0;
+    }
+  
+    .example-form label {
+      font-size: 15pt;
+    }
+  
+    .lbl-subir {
+      color: white;
+      font-size: 13pt;
+    }
+
+    button {
+      width: 100px;
+      padding: 8px;
+      text-align: center;
+    }
+
+    .img-src {
+      width: 150px;
+    }
+  }
+
+  @media screen and (min-width: 651px) and (max-width: 768px) {
+    .container {
+      width: 100%;
+  }
+
+    .colum {
+      float: left;
+      width: 50%;
+      height: 100%;
+      padding: 0px;
+  }
+  iframe {
+    width: 370px;
+    height: 350px;
+    text-align: center;
+    margin:  0px;
+    padding: 4px;
+
+  }
+  .lbl-subir {
+    color: white;
+    font-size: 12pt;
+  }
+  form .example-form {
+    padding: 10px;
+    width: 50px;
+    margin: 20px;
+  }
+
+  form input {
+    margin: 0px;
+  }
+  
+  form .example-form .formu{
+    width: 250px !important;
+  }
+  
+  form mat-form-field {
+    top: 45px;
+    width: 100%;
+    float: left;
+    padding: 8px;
+  }
+  form mat-radio-group {
+    top: 20px;
+    width: 150px;
+    position: relative;
+  }
+  form mat-radio-group .mat-radio-button {
+    font-size: 10pt;
+    position: relative;
+    padding: 2px;
+
+  }
+  form mat-radio-group label {
+    margin: 0;
+    width: 150px;
+  }
+  form mat-form-field-infix {
+    float: left;
+    width: 150px;
+  }
+  .example-form {
+      min-width: 150px;
+      max-width: 500px;
+      width: 100%;
+      color: white;
+    }
+    
+    .example-full-width {
+      width: 100%;
+      padding: 0;
+      margin: 5px;
+    }
+  
+    .mat-radio-button ~ .mat-radio-button {
+      margin-left: 16px;
+    }
+    
+  .example-radio-button {
+    margin: 5px;
+  }
+  
+  .example-radio-group {
+      display: flex;
+      flex-direction: column;
+      margin: 15px 0;
+    }
+  
+    .example-form label {
+      font-size: 15pt;
+    }
+  
+    .lbl-subir {
+      color: white;
+      font-size: 13pt;
+    }
+
+    button {
+      width: 100px;
+      padding: 8px;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,61 @@
+<app-navbar></app-navbar>
+<body>
+        <!-- <nav id="display" class="navbar navbar-expand-lg navbar-light bg-light principal" style="background: #ffffff00 !important;">
+                <div class="container " >
+                    <a class="navbar-brand" href="#">UP Rooms</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Inicio </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="objetivo">Mas Informacion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="acercaDe">Contactanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="iniciosesion">Iniciar Sesion</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+         -->
+        <div class="containers" >
+          <div class="container">
+                <div class="list" style="overflow-x:auto">
+                        <h1>
+                            <h1>Peticiones</h1>
+                        </h1>
+                        <table class="tabla" matSort (matSortChange)="ordenarDatos($event)" >
+                          <tr>
+                            <th class="columna" mat-sort-header="nombre">Nombre </th>
+                            <th class="columna" mat-sort-header="apellidos">Apellidos</th>
+                            <th class="columna" mat-sort-header="correo">correo </th>
+                            <th class="columna" mat-sort-header="telefono">telefono </th>
+                            <th class="columna" mat-sort-header="edad">edad </th>
+                            <th class="columna-opciones" mat-sort-header="opciones">Selecciona</th>
+                          </tr>
+                        
+                          <tr *ngFor="let alumnos of sortedAlumnos">
+                            <td>{{alumnos.nombre}}</td>
+                            <td>{{alumnos.apellidos}}</td>
+                            <td>{{alumnos.correo}}</td>
+                            <td>{{alumnos.telefono}}</td>
+                            <td>{{alumnos.edad}}</td>
+                            <th class="btncol"><button class="btnoption btn-primary">Aceptar</button></th>
+                            <th class="btncol"><button class="btnoption btn-danger">Rechazar</button> </th>
+                          </tr>
+                        </table>
+                    </div>
+          </div>
+            
+        </div>
+       
+</body>
+<app-footer></app-footer>

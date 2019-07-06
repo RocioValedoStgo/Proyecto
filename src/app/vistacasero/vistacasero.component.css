@@ -1,0 +1,370 @@
+.img-Fondo {
+    padding: 0;
+    margin: 0;
+    background: url(/assets/img/vistaCaseroo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+*, *:before, *:after {
+    box-sizing: content-box;
+  }
+
+.ctn1 {
+    position: relative;
+    top: 80px;
+} 
+
+.centro {
+    padding: 25px 40px;
+    background-color: rgba(255, 255, 255, 0.911);
+}
+
+
+.lbl-Titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30pt;
+    text-align: center !important;
+    margin: 0px;
+}
+
+label {
+    text-align: center !;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    clear: both;
+    display: table;
+}
+
+.columna1 {
+    float: left;
+    width: 40%;
+    height: 400px;
+    text-align: right;
+}
+
+.columna2 {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+
+.columna3 {
+    float: left;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+
+.columna4 {
+    float: left;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+
+.columna5 {
+    width: 60%;
+    float: left;
+}
+
+
+
+.btn-Solicitud {
+    text-align: right;
+}
+.btn-Editar {
+    text-align: center;
+}
+.btn-Crear {
+    text-align: center;
+}
+.btn-Control {
+    text-align: left;
+}
+
+.img1 {
+    background : url(/assets/img/verSolic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img2 {
+    background: url(/assets/img/editarC.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img3 {
+    background: url(/assets/img/controlC.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+.img4 {
+    background: url(/assets/img/crearC.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} 
+
+.img1:hover {
+    filter: opacity(.8);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    overflow: hidden;
+}
+.img2:hover {
+    filter: opacity(.8);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    overflow: hidden;
+}
+.img3:hover {
+    filter: opacity(.8);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    overflow: hidden;
+}
+.img4:hover {
+    filter: opacity(.8);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    overflow: hidden;
+}
+
+/*================================================================================================*/
+/*MEDIAS*/
+@media screen and (max-width: 320px) {
+    .centro {
+        background-color: rgba(255, 255, 255, 0.911);
+        padding:  5px 20px;
+    }
+    
+    .ctn1 {
+        position: relative;
+        top: 75px;
+        
+    } 
+    
+    .lbl-Titulo {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25pt;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0;
+    }
+    
+    .row {
+        width: 100%;
+        clear: both;
+        display: table;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    
+    .columna1 {
+        float: left;
+        width: 100%;
+        height: 130px;
+    }
+    
+    .columna2 {
+        float: left;
+        width: 100%;
+        height: 130px;
+    }
+    
+    .columna3 {
+        float: left;
+        width: 50%;
+        height: 130px;
+
+    }
+    
+    .columna4 {
+        float: left;
+        width: 50%;
+        height: 130px;
+    }
+    
+    .columna5 {
+        width: 100%;
+        float: left;
+    }
+    
+    button {
+        text-decoration: none;
+        border: none;
+        color: white;
+        background-color: transparent;
+        padding: 2px;
+        font-size: 15pt;  
+        outline: none; 
+    }
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 650px) {
+   
+    .centro {
+        background-color: rgba(255, 255, 255, 0.911);
+        padding: 5px 10px;
+    }
+
+    .ctn1 {
+        position: relative;
+        top: 75px;
+    } 
+    
+    
+    .lbl-Titulo {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25pt;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0;
+    }
+    
+    .row {
+        width: 100%;
+        clear: both;
+        display: table;
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+    
+    .columna1 {
+        float: left;
+        width: 100%;
+        height: 150px;
+    }
+    
+    .columna2 {
+        float: left;
+        width: 100%;
+        height: 150px;
+    }
+    
+    .columna3 {
+        float: left;
+        width: 50%;
+        height: 150px;
+
+    }
+    
+    .columna4 {
+        float: left;
+        width: 50%;
+        height: 150px;
+    }
+    
+    .columna5 {
+        width: 100%;
+        float: left;
+    }
+    
+    button {
+        text-decoration: none;
+        border: none;
+        color: white;
+        background-color: transparent;
+        padding: 2px;
+        font-size: 15pt;  
+        outline: none;
+        
+    }
+}
+
+/*MEDIA 3*/
+
+@media screen and (min-width: 651px) and (max-width: 768px){
+        
+    .centro {
+        
+        background-color: rgba(255, 255, 255, 0.911);
+        padding:  30px 20px;
+    }
+    
+    
+    .lbl-Titulo {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .row {
+        width: 100%;
+        clear: both;
+        display: table;
+    }
+    
+    .columna1 {
+        float: left;
+        width: 100%;
+        height: 160px;
+    }
+    
+    .columna2 {
+        float: left;
+        width: 100%;
+        height: 160px;
+    }
+    
+    .columna3 {
+        float: left;
+        width: 50%;
+        height: 160px;
+
+    }
+    
+    .columna4 {
+        float: left;
+        width: 50%;
+        height: 160px;
+    }
+    
+    .columna5 {
+        width: 100%;
+        float: left;
+    }
+    
+    button {
+        text-decoration: none;
+        border: none;
+        color: white;
+        background-color: transparent;
+        padding: 2px;
+        font-size: 17pt;  
+        outline: none;
+        height: 100%;  
+    }
+}
+

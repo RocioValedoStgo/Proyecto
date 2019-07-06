@@ -1,0 +1,238 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+    background: url(/assets/images/home/b.png);
+    background-position: right; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+*,*:before,
+*:after{
+    box-sizing: inherit;
+}
+.contenido{
+    float: left;
+    width: 100%;
+    height: 90%;
+}
+.description{
+    color: #184BA2;
+    
+    text-align: center;
+    top: 4%;
+    left: 180px;
+    width: 100%;
+    height: 30%;
+    font-family:'Raleway';
+    /* transform: translate(-50%,-10%) */
+}
+.description span{
+    text-transform: uppercase;
+    display: block;
+}
+.options{
+    float: left;
+    width: 100%;
+    height: 50%;
+    margin-top: 70px;
+    /* background-color: red; */
+    position: absolute;
+}
+.buttonlog{
+    margin-left: 31px;
+    float: left;
+    width: 30%;
+    height: 100%;
+    
+}
+.buttonlog button h1{
+    padding-top: 170px;
+    color: white;
+}
+
+.student{
+    background-image: url(/assets/images/home/S1.png) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
+    background-color: transparent;
+    border-radius: 50px;
+    width: 80%;
+    height: 80%;
+    outline: none;
+}
+.hosting{
+    
+    
+    background-image: url(/assets/images/home/H1.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+   
+    background-color: transparent;
+    border-radius: 50px;
+    
+    width: 80%;
+    height: 80%;
+
+    outline: none;
+}
+.FAQ{
+    
+    background-image: url(/assets/images/F1.jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
+    background-color: transparent;
+    border-radius: 50px;
+   
+    width: 80%;
+    height: 80%;
+
+    outline: none;
+}
+
+.text1{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    animation: text 3s 1;
+}
+.text2{  
+    width: 100%;
+    font-size: 30px;
+    color: #184BA2
+}
+
+@keyframes text{
+    0%{
+        margin-bottom: -350px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -350px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -350px;
+    }
+}
+
+@media (max-width:991px) and (min-width: 1px){
+    .contenido{
+        width: 100%;
+    }
+    .description{
+        height: 30%;
+    }
+    .options{
+        height: 60%;
+        text-align: center;
+    }
+    .buttonlog{
+        margin-left: 20%;
+        width: 60%;
+        height: 30%;
+        margin-bottom: 10px;
+    }
+    .text1{
+   
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 10px;
+        position: relative;
+        animation: text 3s 1;
+    }
+    .text2{  
+        width: 100%;
+        font-size: 10px;
+        color: #184BA2
+    }
+    @keyframes text{
+        0%{
+            margin-bottom: -350px;
+        }
+        30%{
+            letter-spacing: 25px;
+            margin-bottom: -350px;
+        }
+        85%{
+            letter-spacing: 8px;
+            margin-bottom: -350px;
+        }
+    }
+}
+
+@media screen  and (max-width: 750px){
+    .contenido{
+        width: 100%;
+    }
+
+    .description{
+        height: 30%;
+    }
+    .options{
+        height: 60%;
+        text-align: center;
+    }
+    .buttonlog{
+        margin-left: 20%;
+        width: 60%;
+        height: 30%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen  and (max-width: 640px){
+    .contenido{
+        width: 100%;
+    }
+
+    .description{
+        height: 20%;
+    }
+    .options{
+        height: 60%;
+        text-align: center;
+    }
+    .buttonlog{
+        margin-left: 20%;
+        width: 60%;
+        height: 30%;
+        margin-bottom: 10px;
+    }
+    .text1{
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        margin-bottom: 10px;
+        position: relative;
+        animation: text 3s 1;
+    }
+    .text2{  
+        width: 100%;
+        font-size: 20px;
+        color: #184BA2
+    }
+    
+}

@@ -1,0 +1,46 @@
+ <app-navbar></app-navbar> 
+
+<body class="img-Fondo">
+    <div class="container formato">
+        <div class="row">
+            <div class="colum">
+                <span class="text2 titulo">REGISTRO ALUMNO</span>
+                <form (ngSubmit) ="onGuardarEstudiante(formNew)" #forNew="ngForm"  class="example-form" >
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="estudiante.nombre" #nombre="ngModel" matInput placeholder="🖉 Nombre" type="text" id="nombre" name="nombre" required>
+                    </mat-form-field>
+                    <div *ngIf="nombre.touched && !nombre.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="estudiante.apellidopaterno" #apellidopaterno="ngModel" matInput placeholder="🖉 Apellido Paterno" type="text" id="apellidopaterno" name="apellidop" required>
+                    </mat-form-field>
+                    <div *ngIf="apellidopaterno.touched && !apellidopaterno.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="estudiante.apellidomaterno" #apellidomaterno="ngModel" matInput placeholder="🖉 Apellido Materno" type="text" id="apellidomaterno" name="apellidom" required>
+                    </mat-form-field>
+                    <div *ngIf="apellidomaterno.touched && !apellidomaterno.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="estudiante.telefono" #telefono="ngModel" matInput placeholder="✆    Telefono" type="text" id="telefono" pattern="[0-9]{10}" name="telefono" required>
+                    </mat-form-field>
+                    <div *ngIf="telefono.touched && !telefono.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="estudiante.fechanacimiento" #nombre="ngModel" matInput placeholder="🗓  Fecha De Nacimiento" type="text" id="fechanacimiento" name="fechanacimiento" required>
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="estudiante.email" #email="ngModel"  matInput placeholder="✉   Correo" type="email" id="email" name="email" required>
+                    </mat-form-field>
+                    <div *ngIf="email.touched && !email.valid"></div>
+                    <mat-form-field class="example-full-width">
+                        <input [(ngModel)]="estudiante.password" #password="ngModel" matInput placeholder="🖉   Contraseña" type="password" id="password" name="password" required>
+                    </mat-form-field>
+                    <div *ngIf="password.touched && !password.valid"></div>
+                    <button type="submit" mat-stroked-button >Aceptar</button>
+ 
+                </form>
+            </div>
+
+        </div>  
+    </div>
+
+
+</body>
+<app-footer></app-footer>

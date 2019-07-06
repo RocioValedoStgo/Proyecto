@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<body>
+        <div class="containers" >
+          <div class="container">
+                <div class="list" style="overflow-x:auto">
+                        <h1>
+                            <h1>Hospedados</h1>
+                        </h1>
+                        <table class="tabla" matSort (matSortChange)="ordenarDatos($event)" >
+                          <tr>
+                            <th class="columna" mat-sort-header="nombre">Nombre </th>
+                            <th class="columna" mat-sort-header="apellidos">Apellidos</th>
+                            <th class="columna" mat-sort-header="correo">correo </th>
+                            <th class="columna" mat-sort-header="telefono">telefono </th>
+                            <th class="columna" mat-sort-header="edad">edad </th>
+                          </tr>
+                        
+                          <tr *ngFor="let alumnos of sortedAlumnos">
+                            <td>{{alumnos.nombre}}</td>
+                            <td>{{alumnos.apellidos}}</td>
+                            <td>{{alumnos.correo}}</td>
+                            <td>{{alumnos.telefono}}</td>
+                            <td>{{alumnos.edad}}</td>
+                          </tr>
+                        </table>
+                    </div>
+          </div>
+            
+        </div>
+       
+</body>
+<app-footer></app-footer>
