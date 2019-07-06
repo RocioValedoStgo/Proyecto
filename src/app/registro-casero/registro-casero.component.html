@@ -35,7 +35,8 @@
                         <input [(ngModel)]="casero.password" #password="ngModel" matInput placeholder="🖉  Contraseña" type="password" name="password" required>
                     </mat-form-field>
                     <button type="submit" mat-button color="primary"routerLink="/"></button>
- 
+                    <div *ngIf="password.touched && !password.valid"></div>
+                    <button type="submit" mat-stroked-button >Aceptar</button>
                 </form>
             </div>
         </div>  
